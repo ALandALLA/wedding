@@ -1,0 +1,221 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Приглашение на свадьбу</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+    body {
+      margin: 0;
+      background: #fff;
+      color: #88223a;
+      font-family: 'Inter', Arial, sans-serif;
+    }
+    main {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 36px 10px 24px 10px;
+      box-sizing: border-box;
+      max-width: 100vw;
+    }
+    .header-art {
+      margin-bottom: 32px;
+    }
+    .invite-title {
+      font-size: 2.1rem;
+      font-weight: 600;
+      letter-spacing: 2px;
+      margin-bottom: 10px;
+      color: #88223a;
+      text-align: center;
+    }
+    .invite-details span {
+      display: block;
+      font-size: 1.06rem;
+      margin-bottom: 2px;
+    }
+    .links {
+      margin-top: 14px;
+      margin-bottom: 24px;
+      display: flex;
+      gap: 22px;
+      justify-content: center;
+    }
+    .links a {
+      color: #88223a;
+      text-decoration: underline;
+      font-size: 1rem;
+      transition: color .2s;
+    }
+    .links a:hover {
+      color: #a93e59;
+    }
+    hr {
+      border: none;
+      border-top: 2px solid #88223a;
+      width: 70px;
+      margin: 36px auto;
+      opacity: .35;
+    }
+    .main-text {
+      text-align: center;
+      font-size: 1.12rem;
+      margin-bottom: 14px;
+      line-height: 1.6;
+      color: #88223a;
+      max-width: 480px;
+    }
+    .format {
+      font-size: 1.08rem;
+      margin-bottom: 8px;
+      color: #88223a;
+    }
+    .note {
+      font-size: 0.95rem;
+      opacity: 0.8;
+      margin-top: 2px;
+      margin-bottom: 6px;
+    }
+    .rsvp-block {
+      max-width: 340px;
+      width: 100%;
+      margin: 0 auto 38px auto;
+      text-align: center;
+    }
+    .rsvp-block h2 {
+      font-size: 1.25rem;
+      font-weight: 600;
+      margin-bottom: 12px;
+    }
+    .rsvp-block form {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-top: 10px;
+    }
+    .rsvp-block input, .rsvp-block select {
+      border: 1.2px solid #c1a7b2;
+      border-radius: 10px;
+      padding: 9px 13px;
+      font-size: 1rem;
+      outline: none;
+      color: #88223a;
+      font-family: inherit;
+      background: #fff;
+      transition: border .2s;
+    }
+    .rsvp-block input:focus, .rsvp-block select:focus {
+      border: 1.5px solid #88223a;
+    }
+    .rsvp-block button {
+      background: #88223a;
+      color: #fff;
+      border: none;
+      border-radius: 10px;
+      padding: 9px 0;
+      font-size: 1rem;
+      font-weight: 600;
+      margin-top: 7px;
+      cursor: pointer;
+      transition: background .2s;
+    }
+    .rsvp-block button:hover {
+      background: #a93e59;
+    }
+    .disclaimer, .photo-block {
+      max-width: 420px;
+      margin: 0 auto 34px auto;
+      text-align: center;
+      color: #88223a;
+    }
+    .disclaimer {
+      font-size: .97rem;
+      opacity: .93;
+      margin-bottom: 36px;
+    }
+    .photo-block h2 {
+      font-size: 1.22rem;
+      font-weight: 600;
+      margin-bottom: 7px;
+    }
+    @media (max-width: 500px) {
+      .invite-title { font-size: 1.3rem; }
+      .main-text, .format, .disclaimer, .photo-block { font-size: 0.99rem; }
+      .rsvp-block h2, .photo-block h2 { font-size: 1.08rem; }
+      hr { margin: 24px auto; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="header-art">
+      <svg width="320" height="90" viewBox="0 0 320 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M25 60 Q40 30 80 55 Q95 75 120 60 Q130 50 150 60 Q170 70 190 55 Q210 40 225 50 Q240 60 265 40" stroke="#88223a" stroke-width="2" fill="none"/>
+        <circle cx="40" cy="70" r="2" fill="#88223a"/>
+        <circle cx="250" cy="70" r="2" fill="#88223a"/>
+      </svg>
+    </section>
+
+    <section>
+      <div class="invite-title">ПРИГЛАШЕНИЕ НА СВАДЬБУ</div>
+      <div class="invite-details">
+        <span>9 августа 2025 года | 16:00</span>
+        <span>Terrace</span>
+        <span>Qabanbaı Batyr dańǵyly, 3, Астана</span>
+      </div>
+      <div class="links">
+        <a href="https://go.2gis.com/UGpo8" target="_blank" rel="noopener noreferrer">Открыть в 2ГИС</a>
+        <a href="https://yandex.kz/maps/" target="_blank" rel="noopener noreferrer">Открыть в Яндекс.Картах</a>
+      </div>
+    </section>
+
+    <hr>
+
+    <section class="main-text">
+      <p>С особой радостью приглашаем вас отпраздновать с нами этот особенный день.</p>
+      <div class="format">
+        <b>Формат:</b> свадебный сет-ужин<br>
+        <b>Dress code:</b> cocktail
+        <div class="note">
+          Просим воздержаться от кричащих и ярких цветов —<br>
+          предпочтительны сдержанные, элегантные оттенки.
+        </div>
+      </div>
+    </section>
+
+    <hr>
+
+    <section class="rsvp-block">
+      <h2>Подтверждение участия</h2>
+      <p>Пожалуйста, подтвердите своё присутствие, заполнив форму ниже.</p>
+      <form name="rsvp" method="POST" data-netlify="true">
+        <input type="hidden" name="form-name" value="rsvp" />
+        <input required name="Имя" placeholder="Имя" />
+        <select required name="Присутствие">
+          <option value="Буду присутствовать">Буду присутствовать</option>
+          <option value="Не смогу присутствовать">Не смогу присутствовать</option>
+        </select>
+        <button type="submit">Отправить</button>
+      </form>
+    </section>
+
+    <section class="disclaimer">
+      Это персональное приглашение.<br>
+      Формат вечера не предполагает присутствие детей и дополнительных гостей.<br>
+      Благодарим за понимание.
+    </section>
+
+    <hr>
+
+    <section class="photo-block">
+      <h2>Фотоотчёт</h2>
+      После свадьбы мы обязательно поделимся с вами тёплыми кадрами этого дня.<br>
+      <span style="opacity:0.78;">Ссылка на альбом будет размещена здесь.</span>
+    </section>
+  </main>
+</body>
+</html>
